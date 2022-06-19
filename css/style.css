@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    align-items: center;
+    background-color: #111827;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #111927;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+    border-radius: 20px;
+    width: 30rem;
+}
+
+.card {
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+}
+
+.clock {
+    font-size: 30px;
+    font-weight: bold;
+}
